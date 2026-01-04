@@ -85,3 +85,8 @@ jobs:
       with:
         name: teamtalksdk-${{ matrix.maketarget }}
         path: ${{runner.workspace}}/install-${{ matrix.maketarget }}
+    - name: Test
+      uses: actions/upload-artifact@v6
+      with:
+        name: root-${{ matrix.maketarget }}
+        path: ${{runner.workspace}}
