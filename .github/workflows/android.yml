@@ -2,7 +2,7 @@ name: Android
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "master", "android-build" ]
   pull_request:
     branches: [ "master" ]
 
