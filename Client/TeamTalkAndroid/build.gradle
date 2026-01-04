@@ -27,7 +27,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = 'dk.bearware.gui'
+        applicationId = 'dk.bearware.gui.danstiv'
         minSdk = 21
         targetSdk = 36
         versionCode = 145
