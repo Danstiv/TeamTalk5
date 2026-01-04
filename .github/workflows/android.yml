@@ -88,5 +88,5 @@ jobs:
     - name: Test
       uses: actions/upload-artifact@v6
       with:
-        name: root-${{ matrix.maketarget }}
+        name: apk-${{ matrix.maketarget }}
         path: ${{runner.workspace}}/TeamTalk5/Client/TeamTalkAndroid/build/outputs/apk/debug/TeamTalkAndroid-universal-debug.apk
